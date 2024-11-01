@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>UNLOQ | Login</title>
+    <meta name="description" content="UNLOQ.io Authentication"/>
+    <meta name="author" content="UNLOQ Systems LTD"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <link rel="shortcut icon" href="/favicon.png" type="image/x-icon">
+    <link rel="icon" href="/favicon.png" type="image/x-icon">
+    <link href="{plugin_url}/css/loader.css?ver={plugin_version}" rel="stylesheet" media="screen">
+    <link href="{plugin_url}/css/card.css?ver={plugin_version}" rel="stylesheet" media="screen">
+    <style type="text/css">
+        .unloq-widget-logo {
+            display: inline-block;
+            width: 90.4px;
+            height: 90.4px;
+        }
+    </style>
+    {style_css}
+</head>
+<body>
+
+{widget_welcome_text}
+<div class="app-root" id="uapp"></div>
+<div class="app-loading loading-visible" id="uloading">
+    <div class="unloq-widget-loader" style="text-align: center">
+        <div class="unloq-widget-spinner"></div>
+        <svg class="unloq-widget-logo unloq-widget-logo-color" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
+            <path class="unloq-widget-logo-color"
+                  d="M52.71,24.63V41.94c0,16.81-25.47,16.81-25.47,0V26.52L43.57,43c.85.8,1.89-.3,1.09-1.14L27,24a.79.79,0,0,0-1.34.57V41.94c0,19,28.7,19,28.7,0V24.58A.82.82,0,0,0,52.71,24.63Z"></path>
+        </svg>
+    </div>
+</div>
+<script type="text/javascript">
+  window.wpVars = {wpVars};
+  window.WP_CUSTOMIZE = {wpCustomize};
+</script>
+<script type="text/javascript" src="{plugin_url}/js/login-card.js?ver={plugin_version}"></script>
+</body>
+</html>
